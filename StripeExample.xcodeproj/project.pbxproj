@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D565ABC1A8210FC009A7EDF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D565ABB1A8210FC009A7EDF /* Cocoa.framework */; };
+		4D565AC61A8210FC009A7EDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D565AC41A8210FC009A7EDF /* InfoPlist.strings */; };
+		4D565AC81A8210FC009A7EDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D565AC71A8210FC009A7EDF /* main.m */; };
+		4D565ACC1A8210FC009A7EDF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4D565ACA1A8210FC009A7EDF /* Credits.rtf */; };
+		4D565ACF1A8210FC009A7EDF /* STEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D565ACE1A8210FC009A7EDF /* STEAppDelegate.m */; };
+		4D565AD21A8210FC009A7EDF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D565AD01A8210FC009A7EDF /* MainMenu.xib */; };
+		4D565AD41A8210FC009A7EDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D565AD31A8210FC009A7EDF /* Images.xcassets */; };
+		4D565ADB1A8210FC009A7EDF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D565ADA1A8210FC009A7EDF /* XCTest.framework */; };
+		4D565ADC1A8210FC009A7EDF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D565ABB1A8210FC009A7EDF /* Cocoa.framework */; };
+		4D565AE41A8210FC009A7EDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D565AE21A8210FC009A7EDF /* InfoPlist.strings */; };
+		4D565AE61A8210FC009A7EDF /* StripeExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D565AE51A8210FC009A7EDF /* StripeExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D565ADD1A8210FC009A7EDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D565AB01A8210FC009A7EDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D565AB71A8210FC009A7EDF;
+			remoteInfo = StripeExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D565AB81A8210FC009A7EDF /* StripeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StripeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D565ABB1A8210FC009A7EDF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4D565ABE1A8210FC009A7EDF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4D565ABF1A8210FC009A7EDF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4D565AC01A8210FC009A7EDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D565AC31A8210FC009A7EDF /* StripeExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StripeExample-Info.plist"; sourceTree = "<group>"; };
+		4D565AC51A8210FC009A7EDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D565AC71A8210FC009A7EDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D565AC91A8210FC009A7EDF /* StripeExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StripeExample-Prefix.pch"; sourceTree = "<group>"; };
+		4D565ACB1A8210FC009A7EDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4D565ACD1A8210FC009A7EDF /* STEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STEAppDelegate.h; sourceTree = "<group>"; };
+		4D565ACE1A8210FC009A7EDF /* STEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STEAppDelegate.m; sourceTree = "<group>"; };
+		4D565AD11A8210FC009A7EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4D565AD31A8210FC009A7EDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D565AD91A8210FC009A7EDF /* StripeExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StripeExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D565ADA1A8210FC009A7EDF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4D565AE11A8210FC009A7EDF /* StripeExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StripeExampleTests-Info.plist"; sourceTree = "<group>"; };
+		4D565AE31A8210FC009A7EDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D565AE51A8210FC009A7EDF /* StripeExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StripeExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D565AB51A8210FC009A7EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D565ABC1A8210FC009A7EDF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D565AD61A8210FC009A7EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D565ADC1A8210FC009A7EDF /* Cocoa.framework in Frameworks */,
+				4D565ADB1A8210FC009A7EDF /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D565AAF1A8210FC009A7EDF = {
+			isa = PBXGroup;
+			children = (
+				4D565AC11A8210FC009A7EDF /* StripeExample */,
+				4D565ADF1A8210FC009A7EDF /* StripeExampleTests */,
+				4D565ABA1A8210FC009A7EDF /* Frameworks */,
+				4D565AB91A8210FC009A7EDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D565AB91A8210FC009A7EDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D565AB81A8210FC009A7EDF /* StripeExample.app */,
+				4D565AD91A8210FC009A7EDF /* StripeExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D565ABA1A8210FC009A7EDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D565ABB1A8210FC009A7EDF /* Cocoa.framework */,
+				4D565ADA1A8210FC009A7EDF /* XCTest.framework */,
+				4D565ABD1A8210FC009A7EDF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D565ABD1A8210FC009A7EDF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D565ABE1A8210FC009A7EDF /* AppKit.framework */,
+				4D565ABF1A8210FC009A7EDF /* CoreData.framework */,
+				4D565AC01A8210FC009A7EDF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4D565AC11A8210FC009A7EDF /* StripeExample */ = {
+			isa = PBXGroup;
+			children = (
+				4D565ACD1A8210FC009A7EDF /* STEAppDelegate.h */,
+				4D565ACE1A8210FC009A7EDF /* STEAppDelegate.m */,
+				4D565AD01A8210FC009A7EDF /* MainMenu.xib */,
+				4D565AD31A8210FC009A7EDF /* Images.xcassets */,
+				4D565AC21A8210FC009A7EDF /* Supporting Files */,
+			);
+			path = StripeExample;
+			sourceTree = "<group>";
+		};
+		4D565AC21A8210FC009A7EDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D565AC31A8210FC009A7EDF /* StripeExample-Info.plist */,
+				4D565AC41A8210FC009A7EDF /* InfoPlist.strings */,
+				4D565AC71A8210FC009A7EDF /* main.m */,
+				4D565AC91A8210FC009A7EDF /* StripeExample-Prefix.pch */,
+				4D565ACA1A8210FC009A7EDF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D565ADF1A8210FC009A7EDF /* StripeExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D565AE51A8210FC009A7EDF /* StripeExampleTests.m */,
+				4D565AE01A8210FC009A7EDF /* Supporting Files */,
+			);
+			path = StripeExampleTests;
+			sourceTree = "<group>";
+		};
+		4D565AE01A8210FC009A7EDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D565AE11A8210FC009A7EDF /* StripeExampleTests-Info.plist */,
+				4D565AE21A8210FC009A7EDF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D565AB71A8210FC009A7EDF /* StripeExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D565AE91A8210FC009A7EDF /* Build configuration list for PBXNativeTarget "StripeExample" */;
+			buildPhases = (
+				4D565AB41A8210FC009A7EDF /* Sources */,
+				4D565AB51A8210FC009A7EDF /* Frameworks */,
+				4D565AB61A8210FC009A7EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StripeExample;
+			productName = StripeExample;
+			productReference = 4D565AB81A8210FC009A7EDF /* StripeExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D565AD81A8210FC009A7EDF /* StripeExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D565AEC1A8210FC009A7EDF /* Build configuration list for PBXNativeTarget "StripeExampleTests" */;
+			buildPhases = (
+				4D565AD51A8210FC009A7EDF /* Sources */,
+				4D565AD61A8210FC009A7EDF /* Frameworks */,
+				4D565AD71A8210FC009A7EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D565ADE1A8210FC009A7EDF /* PBXTargetDependency */,
+			);
+			name = StripeExampleTests;
+			productName = StripeExampleTests;
+			productReference = 4D565AD91A8210FC009A7EDF /* StripeExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D565AB01A8210FC009A7EDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = STE;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Benedikt Terhechte";
+				TargetAttributes = {
+					4D565AD81A8210FC009A7EDF = {
+						TestTargetID = 4D565AB71A8210FC009A7EDF;
+					};
+				};
+			};
+			buildConfigurationList = 4D565AB31A8210FC009A7EDF /* Build configuration list for PBXProject "StripeExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D565AAF1A8210FC009A7EDF;
+			productRefGroup = 4D565AB91A8210FC009A7EDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D565AB71A8210FC009A7EDF /* StripeExample */,
+				4D565AD81A8210FC009A7EDF /* StripeExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D565AB61A8210FC009A7EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D565AC61A8210FC009A7EDF /* InfoPlist.strings in Resources */,
+				4D565AD41A8210FC009A7EDF /* Images.xcassets in Resources */,
+				4D565ACC1A8210FC009A7EDF /* Credits.rtf in Resources */,
+				4D565AD21A8210FC009A7EDF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D565AD71A8210FC009A7EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D565AE41A8210FC009A7EDF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D565AB41A8210FC009A7EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D565AC81A8210FC009A7EDF /* main.m in Sources */,
+				4D565ACF1A8210FC009A7EDF /* STEAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D565AD51A8210FC009A7EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D565AE61A8210FC009A7EDF /* StripeExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D565ADE1A8210FC009A7EDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D565AB71A8210FC009A7EDF /* StripeExample */;
+			targetProxy = 4D565ADD1A8210FC009A7EDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D565AC41A8210FC009A7EDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D565AC51A8210FC009A7EDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D565ACA1A8210FC009A7EDF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D565ACB1A8210FC009A7EDF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4D565AD01A8210FC009A7EDF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D565AD11A8210FC009A7EDF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4D565AE21A8210FC009A7EDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D565AE31A8210FC009A7EDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D565AE71A8210FC009A7EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4D565AE81A8210FC009A7EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4D565AEA1A8210FC009A7EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StripeExample/StripeExample-Prefix.pch";
+				INFOPLIST_FILE = "StripeExample/StripeExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D565AEB1A8210FC009A7EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StripeExample/StripeExample-Prefix.pch";
+				INFOPLIST_FILE = "StripeExample/StripeExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4D565AED1A8210FC009A7EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StripeExample.app/Contents/MacOS/StripeExample";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StripeExample/StripeExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StripeExampleTests/StripeExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4D565AEE1A8210FC009A7EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StripeExample.app/Contents/MacOS/StripeExample";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StripeExample/StripeExample-Prefix.pch";
+				INFOPLIST_FILE = "StripeExampleTests/StripeExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D565AB31A8210FC009A7EDF /* Build configuration list for PBXProject "StripeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D565AE71A8210FC009A7EDF /* Debug */,
+				4D565AE81A8210FC009A7EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D565AE91A8210FC009A7EDF /* Build configuration list for PBXNativeTarget "StripeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D565AEA1A8210FC009A7EDF /* Debug */,
+				4D565AEB1A8210FC009A7EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D565AEC1A8210FC009A7EDF /* Build configuration list for PBXNativeTarget "StripeExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D565AED1A8210FC009A7EDF /* Debug */,
+				4D565AEE1A8210FC009A7EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D565AB01A8210FC009A7EDF /* Project object */;
+}
