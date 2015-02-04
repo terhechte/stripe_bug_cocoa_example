@@ -10,6 +10,12 @@
 
 @implementation STEAppDelegate
 
++ (void) initialize {
+    // Display Web Inspector
+    [[NSUserDefaults standardUserDefaults] setBool:TRUE forKey:@"WebKitDeveloperExtras"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
 #pragma mark NSAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
