@@ -1,0 +1,23 @@
+* Stripe Checkout Display Bug on OSX 10.8 & 10.9
+
+There's an issue on Mac OS X 10.8 and 10.9 where CSS/JS Animation heavy contents in a Layer-Backed WebView do not draw correctly. This affects the Stripe Checkout form which does not display at all on those older operating systems. The bug seems to be fixed in 10.10 Yosemite. 
+
+** Conditions
+The bug happens when those conditions are met:
+- The Website heavily utilizes CSS Transformations
+- The Cocoa WebView is Layer-Backed
+
+** App
+This app allows to see the bug as well as other CSS heavy websites (where animations work). It also allows to open any other website to debug the CSS.
+
+This app also includes the Web Inspector, to make debugging easier.
+
+[[./screenshot.png]]
+
+** Installation.
+
+Either download the binary that is part of this repository, or clone & compile it.
+Compilation requires Xcode 5.0+ and Mac OS X 10.8+
+
+[[./StripeExample.zip][StripeExample.zip]]
+
