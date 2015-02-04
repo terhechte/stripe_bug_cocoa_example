@@ -18,6 +18,7 @@
 		4D565ADC1A8210FC009A7EDF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D565ABB1A8210FC009A7EDF /* Cocoa.framework */; };
 		4D565AE41A8210FC009A7EDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D565AE21A8210FC009A7EDF /* InfoPlist.strings */; };
 		4D565AE61A8210FC009A7EDF /* StripeExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D565AE51A8210FC009A7EDF /* StripeExampleTests.m */; };
+		4D565AF01A8211B2009A7EDF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D565AEF1A8211B2009A7EDF /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		4D565AE11A8210FC009A7EDF /* StripeExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StripeExampleTests-Info.plist"; sourceTree = "<group>"; };
 		4D565AE31A8210FC009A7EDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D565AE51A8210FC009A7EDF /* StripeExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StripeExampleTests.m; sourceTree = "<group>"; };
+		4D565AEF1A8211B2009A7EDF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D565AF01A8211B2009A7EDF /* WebKit.framework in Frameworks */,
 				4D565ABC1A8210FC009A7EDF /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +98,7 @@
 		4D565ABA1A8210FC009A7EDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D565AEF1A8211B2009A7EDF /* WebKit.framework */,
 				4D565ABB1A8210FC009A7EDF /* Cocoa.framework */,
 				4D565ADA1A8210FC009A7EDF /* XCTest.framework */,
 				4D565ABD1A8210FC009A7EDF /* Other Frameworks */,
